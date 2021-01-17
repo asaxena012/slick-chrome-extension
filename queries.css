@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1410px) {
+  .container-row {
+    left: 6%;
+  }
+}
+
+@media only screen and (max-width: 1351px) {
+  .container-row {
+    left: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 1288px) {
+  .meaning,
+  .example {
+    max-width: 700px;
+  }
+  .container-row:last-child {
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .phrase {
+    font-size: 3rem;
+    width: 300px;
+  }
+  .example-label {
+    width: 300px;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .meaning,
+  .example {
+    max-width: 600px;
+  }
+
+  .phrase,
+  .example-label {
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container-row {
+    flex-direction: column;
+    align-items: center;
+    left: 17%;
+    margin: 20px 0px;
+  }
+
+  .container-row:first-child {
+    top: 20%;
+  }
+
+  .phrase,
+  .example-label {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .meaning,
+  .example {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container-row {
+    left: 9%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .container-row {
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .container-row {
+    left: 1%;
+  }
+  .meaning,
+  .example {
+    font-size: 1.4rem;
+  }
+}
