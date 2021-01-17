@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #535353;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.img-logo {
+  width: 200px;
+  height: auto;
+  margin: 30px;
+}
+
+.phrase {
+  color: #4d72f5;
+  font-size: 4rem;
+  width: 350px;
+  text-align: right;
+}
+
+.example-label {
+  color: #04b42b;
+  font-size: 3rem;
+  /* margin-left: 7.1rem; */
+  width: 350px;
+  text-align: right;
+}
+
+.meaning,
+.example {
+  font-size: 1.6rem;
+  max-width: 900px;
+  padding-left: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.container-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  align-items: flex-end;
+}
+
+.container-row {
+  position: absolute;
+  left: 10%;
+  margin: 2rem 0rem;
+}
+.container-row:first-child {
+  top: 30%;
+}
+.container-row:last-child {
+  top: 48%;
+}
+
+/* Button CSS */
+.btn-theme {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  padding: 12px 17px;
+  border: solid 2px #535353;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  transition: 0.4s;
+  font-size: 0.73rem;
+  /* box-shadow: 5px 6px 11px #202124; */
+  background-color: #36383d;
+}
+
+.btn-theme:hover {
+  background-color: #535353;
+  color: white;
+}
+
+/* Dark mode background css */
+.dark-theme {
+  background: #202124;
+  color: white;
+}
+
+/* Dark Mode Button CSS */
+.btn-light {
+  background-color: white;
+  color: #202124;
+  /* border: 2px solid whitesmoke; */
+}
+
+.btn-light:hover {
+  background-color: #c6c6c7;
+  color: #202124;
+}
