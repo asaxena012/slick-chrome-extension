@@ -1,0 +1,14 @@
+{
+  "name": "Slick",
+  "version": "1.0",
+  "description": "Get familiar with commonly used slangs and phrases!",
+  "manifest_version": 2,
+
+  "incognito": "split",
+  "chrome_url_overrides": { "newtab": "index.html" },
+  "permissions": ["activeTab"],
+
+  "icons": {
+    "128": "icon.png"
+  }
+}
