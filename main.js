@@ -80,7 +80,7 @@ let data = [
     example: "The movie was wack.",
   },
   {
-    phrase: ".It was a blast ",
+    phrase: "It was a blast ",
     meaning: "A very fun event",
     example: "Last night was a blast!",
   },
@@ -177,6 +177,11 @@ let data = [
     example:
       "You'll be as right as rain as soon as you are back in your own home with your baby.",
   },
+  {
+    phrase: "slick",
+    meaning: "done or operating in an impressively smooth and efficient way",
+    example: "Rangers have been entertaining crowds with a slick passing game.",
+  },
 ];
 
 // Functionality
@@ -185,7 +190,7 @@ let data = [
 let currentData = data[Math.trunc(Math.random() * data.length)];
 
 //Fill current data to elements
-elPhrase.textContent = `"${currentData.phrase.toLowerCase()}"`;
+elPhrase.textContent = currentData.phrase.toLowerCase();
 elMeaning.textContent = currentData.meaning.toLowerCase();
 elExample.textContent = currentData.example.toLowerCase();
 

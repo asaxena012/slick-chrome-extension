@@ -22,46 +22,36 @@ body {
 
 .phrase {
   color: #4d72f5;
-  font-size: 4rem;
-  width: 350px;
-  text-align: right;
+  font-size: 3.4rem;
 }
 
 .example-label {
   color: #04b42b;
   font-size: 3rem;
-  /* margin-left: 7.1rem; */
-  width: 350px;
-  text-align: right;
 }
 
 .meaning,
 .example {
-  font-size: 1.6rem;
-  max-width: 900px;
-  padding-left: 4rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.4rem;
 }
 
-.container-row {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-  align-items: flex-end;
-}
+/* CSS Grid */
 
-.container-row {
+.container {
+  display: grid;
   position: absolute;
-  left: 10%;
-  margin: 2rem 0rem;
-}
-.container-row:first-child {
   top: 30%;
+  grid-template-columns: 2fr 4fr;
+  column-gap: 2rem;
+  row-gap: 2.4rem;
+  align-items: start;
+  justify-content: start;
+  margin: 2.5rem 2.8rem;
 }
-.container-row:last-child {
-  top: 48%;
+
+.phrase,
+.example-label {
+  /* justify-self: end; */
 }
 
 /* Button CSS */
