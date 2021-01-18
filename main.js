@@ -60,7 +60,7 @@ let data = [
   },
   {
     phrase: "It was such a Hassle",
-    meaning: ": to annoy or bother someone ",
+    meaning: "to annoy or bother someone ",
     example:
       "It was such a hassle to get everyone’s signature on the card when many of them were out of town.",
   },
