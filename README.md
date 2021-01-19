@@ -9,4 +9,10 @@ __*A dark/light mode toggle feature has been added, which stores the user prefer
 
 ![Video of Slick](https://github.com/asaxena012/slick-chrome-extension/blob/master/docs/slickGIF.gif)
 
+### Chrome Web Store Preview
+
+This is web store preview screenshot of the extension under review.
+
+![Web Store Preview](https://github.com/asaxena012/slick-chrome-extension/blob/master/docs/webStoreScreenshot.png)
+
 This extension is under review for publication on the Chrome Web Store, the link will be updated as soon as it is published.
