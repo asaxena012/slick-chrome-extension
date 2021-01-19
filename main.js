@@ -182,6 +182,13 @@ let data = [
     meaning: "done or operating in an impressively smooth and efficient way",
     example: "Rangers have been entertaining crowds with a slick passing game.",
   },
+  {
+    phrase: "ok boomer",
+    meaning:
+      "catchphrase and meme often used by teenagers and young adults to dismiss or mock attitudes typically associated with people born in the two decades following World War II, known as baby boomers.",
+    example: `They always say "Okay Boomer".
+    No Ever says "You okay? Boomer"`,
+  },
 ];
 
 // Functionality

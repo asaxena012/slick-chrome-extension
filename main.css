@@ -49,11 +49,6 @@ body {
   margin: 2.5rem 2.8rem;
 }
 
-.phrase,
-.example-label {
-  /* justify-self: end; */
-}
-
 /* Button CSS */
 .btn-theme {
   position: absolute;
