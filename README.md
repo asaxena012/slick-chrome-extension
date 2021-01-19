@@ -1,5 +1,5 @@
 # Slick
-Slick chrome extension gets you familiar with the commonly used slangs and phrases in trend that you can use in your informal talks! Made with HTML5, CSS3 and Javascript.
+Slick chrome extension gets you familiar with the most commonly used slangs and phrases in trend that you can use in your informal talks! Made with HTML5, CSS3 and Javascript.
 
 ## Working Preview
 
@@ -11,7 +11,7 @@ __*A dark/light mode toggle feature has been added, which stores the user prefer
 
 ### Chrome Web Store Preview
 
-This is web store preview screenshot of the extension under review.
+This is the web store preview screenshot of the extension under review.
 
 ![Web Store Preview](https://github.com/asaxena012/slick-chrome-extension/blob/master/docs/webStoreScreenshot.png)
 
