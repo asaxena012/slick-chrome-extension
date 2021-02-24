@@ -1,4 +1,4 @@
-# Slick
+# [Slick](https://chrome.google.com/webstore/detail/slick/gmbjhjmadihdiehaenjeeepkflhaggek)
 Slick chrome extension gets you familiar with the most commonly used slangs and phrases in trend that you can use in your informal talks! Made with HTML5, CSS3 and Javascript.
 
 ## Working Preview
@@ -15,4 +15,4 @@ This is the web store preview screenshot of the extension under review.
 
 ![Web Store Preview](https://github.com/asaxena012/slick-chrome-extension/blob/master/docs/webStoreScreenshot.png)
 
-This extension is under review for publication on the Chrome Web Store, the link will be updated as soon as it is published.
+This extension is published on the web store, check it out [here](https://chrome.google.com/webstore/detail/slick/gmbjhjmadihdiehaenjeeepkflhaggek).
